@@ -3,6 +3,8 @@ FROM python:3.10
 
 WORKDIR /app
 
+RUN flask db upgrade; gunicorn aicapp:app
+
 COPY requirements.txt /app/
 
 RUN apt update && apt upgrade -y
