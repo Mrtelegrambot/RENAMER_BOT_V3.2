@@ -3,10 +3,10 @@ services:
   workerdisk:
     build: .
     environment:
-      - API_ID=${API_ID}
-      - API_HASH=${HASH}
-      - TOKEN=${TOKEN}
-      - DB_NAME=${DB_NAME}
-      - DB_URL=${DB_URL}
-      - CHANNEL=${CHANNEL}
-      - ADMIN=${ADMIN}
+      - API_ID=${21102617}
+      - API_HASH=${31de0d24a6b8048c48730bc420f4b70c}
+      - BOT TOKEN=${6997502848:AAFaPYyQQr6zIteeUjwoPhgVT0N3mpEezZs}
+      - DB_NAME=${Cluster0}
+      - DB_URL=${mongodb+srv://Sathish:<Ammbappur33@>@cluster0.ermwi.mongodb.net/?retryWrites=true&w=majority}
+      - CHANNEL={-1002114832614}
+      - ADMIN=${6300568870}
